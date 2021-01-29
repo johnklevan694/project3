@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="../assets/style.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://use.typekit.net/gex5fps.css">
+<link rel="stylesheet" href="https://use.typekit.net/gex5fps.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+
+<body> 
+	<div id="container">
+  <header></header>
+  <nav>
+	  <ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="aboutMe.html">About</a></li>
+		  <li><a href="blog.html">Blog</a></li>
+		  <li><a href="#">Gallery</a></li>
+		  <li><a href="contact.html">Contact</a></li>
+	  </ul>
+	
+  </nav>
+	
+  <aside>
+    <h3>Im a big Chiefs fan! On this blog join me on the journey of becoming a bigger Chiefs fan!</h3>
+  </aside>
+  <main>
+	  <article>
+	  <h1>Contact Me</h1>
+	  <form>
+		  <p>Your Name: <input name="user_name" type="text" required="required" id="user_name" autocomplete="on" value="Enter your first and last name here" size="50"></p>
+		  <p>Your Email: <input name="user_email" type="email" required="required" id="user_email" autocomplete="on" value="Enter your email here" size="50"></p>
+		  <p>Leave a message: <br><textarea name="user_comment" cols="65" rows="10" maxlength="Enter your comments here" required="required" id="user_comment">Enter your comments here</textarea></p>
+		  <p>How did you hear about this blog?</p>
+	    <p>
+	      <label>
+		      <input name="BlogChoices" type="radio" required="required" id="BlogChoices_0" value="radio"> Another Website </label>
+		    <br>
+		    <label>
+		      <input type="radio" name="BlogChoices" value="radio" id="BlogChoices_1">
+		      Social Media</label>
+			<br>
+			<label>
+			  <input type="radio" name="BlogChoices" value="radio" id="BlogChoices_2">
+			  Business Card</label>
+		    <br>
+			<label>
+			  <input type="radio" name="BlogChoices" value="radio" id="BlogChoices_3">Friend</label>
+			<br>
+			  <br>
+	    </p>
+		  <input name="Submit" type="submit" class="submitBtn" formaction="../comment-box.php" formmethod="POST" title="Send me a message" value="Submit" id="Submit">
+     </form>
+		  </article>
+	
+  </main>
+  <footer><p>Content for New footer Tag Goes Here</p></footer>
+</div>
+</body>
+</html>
